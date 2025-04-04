@@ -1,0 +1,46 @@
+/*Resetear estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Underdog", system-ui;
+}
+
+.container {
+    /* Ancho de la página */
+    width: 1000px;
+    /* 0px arriba/abajo auto izquierda/derecha */
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-buscar {
+    /* Color de fondo*/
+    background-color: #cdcdcd;
+    /* Color de texto */
+    color: #000;
+    /* Borde redondeado */
+    border-radius: 40px;
+    /* Borde (line) */
+    border: 2px solid #000;
+}
+
+.btn-mas {
+    /* Color de fondo */
+    background-color: orange;
+    color: white;
+    border-radius: 40px;
+    border: 2px solid #000;
+}
+
+.btn-crearcuenta {
+    color: white;
+    background-color: #1767df;
+}
