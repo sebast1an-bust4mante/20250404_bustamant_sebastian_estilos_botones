@@ -1,12 +1,13 @@
 /*Resetear estilos*/
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Underdog", system-ui;
+
 }
 
 .container {
@@ -30,17 +31,30 @@ body {
     border-radius: 40px;
     /* Borde (line) */
     border: 2px solid #000;
+    padding: 12px 40px;
+    font-weight: bold;
 }
 
 .btn-mas {
     /* Color de fondo */
     background-color: orange;
     color: white;
-    border-radius: 40px;
-    border: 2px solid #000;
+    border-radius: 50%;
+    /* circulo perfecto */
+    /* padding: 20px;  relleno de un elemento*/
+    font-size: 30px;
+    /* tamaño de la letra*/
+    height: 60px;
+    /*altura del elemento*/
+    width: 60px;
+    /*ancho del elemento */
+    border: none;
 }
 
 .btn-crearcuenta {
     color: white;
-    background-color: #1767df;
+    background-color: #5b97f1;
+    border: none;
+    padding: 20px 33px;
+    font-weight: bold;
 }
